@@ -1,0 +1,4 @@
+(executable
+ (public_name swikn)
+ (name main)
+ (libraries swikn))
