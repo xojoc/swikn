@@ -1,4 +1,4 @@
 (executable
  (public_name swikn)
  (name main)
- (libraries swikn))
+ (libraries swikn core dream))

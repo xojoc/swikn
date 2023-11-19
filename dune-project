@@ -5,22 +5,21 @@
 (generate_opam_files true)
 
 (source
- (github username/reponame))
+ (github xojoc/swikn))
 
-(authors "Author Name")
+(authors "Alexandru Cojocaru")
 
-(maintainers "Maintainer Name")
+(maintainers "Alexandru Cojocaru")
 
 (license LICENSE)
 
-(documentation https://url/to/documentation)
+(documentation https://xojoc.pw)
 
 (package
  (name swikn)
- (synopsis "A short synopsis")
- (description "A longer description")
+ (synopsis "Swiss army knife")
+ (description "Swiss army knife")
  (depends ocaml dune)
- (tags
-  (topics "to describe" your project)))
+ (tags (tool)))
 
 ; See the complete stanza docs at https://dune.readthedocs.io/en/stable/dune-files.html#dune-project
